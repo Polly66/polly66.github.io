@@ -28,7 +28,6 @@ createGamePlace();
 
 setupWordTable();
 
-
 /**
  * Отрисовка табло и темы
  */
