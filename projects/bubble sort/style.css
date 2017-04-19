@@ -1,0 +1,55 @@
+.bubbleContainer {
+   margin: 50px auto;
+   width: 40%;
+}
+
+.sortWrap {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.before, .after {
+   padding:30px 25px;
+   width: 40%;
+}
+
+.table {
+   display: table;
+   border-collapse: collapse;
+   margin: auto;
+}
+
+.tableRow {
+   display: table-row;
+}
+
+.tableCell {
+   display: table-cell;
+   height: 50px;
+   width: 50px;
+   font-size: 30px;
+   vertical-align: middle;
+   border: 2px solid grey;
+}
+
+.bubble {
+   padding: 5px;
+   position: absolute;
+   height:50px;
+   width: 50px;
+   background-color: #6abae0;
+   border: 2px solid #6abae0;
+   border-radius: 50%;;
+   line-height: 50px;
+   vertical-align: middle;
+   font: bold 25px Tahoma;
+}
+
+h2, p {
+   margin-left: 50px;
+}
+
+p {
+   font-size: 20px;
+}
